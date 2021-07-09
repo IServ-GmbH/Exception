@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '100',
+        'version' => '100.0.0.0',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => 'horde/translation',
+        'dev' => true,
+    ),
+    'versions' => array(
+        'horde/translation' => array(
+            'pretty_version' => '100',
+            'version' => '100.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+        'phpstan/phpstan' => array(
+            'pretty_version' => '0.12.90',
+            'version' => '0.12.90.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpstan/phpstan',
+            'aliases' => array(),
+            'reference' => 'f0e4b56630fc3d4eb5be86606d07212ac212ede4',
+            'dev_requirement' => true,
+        ),
+        'rector/rector' => array(
+            'pretty_version' => '0.11.32',
+            'version' => '0.11.32.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../rector/rector',
+            'aliases' => array(),
+            'reference' => 'cbc812647c9c9877c5c5a65435111009e8799f70',
+            'dev_requirement' => true,
+        ),
+    ),
+);
