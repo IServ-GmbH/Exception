@@ -21,11 +21,9 @@
             "role": "developer"
         }
     ],
-    "version": "103",
-    "time": "2017-11-11",
     "require": {
         "php": ">=7.3",
-        "horde/translation": "103"
+        "horde/translation": ">=106"
     },
     "suggest": {
         "horde/test": "^2.1"
